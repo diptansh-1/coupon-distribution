@@ -1,0 +1,11 @@
+{
+  "buildCommand": "prisma generate && next build",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "env": {
+    "DATABASE_URL": "@database_url",
+    "COOKIE_SECRET": "@cookie_secret",
+    "CLAIM_COOLDOWN_MINUTES": "@claim_cooldown_minutes"
+  }
+} 
